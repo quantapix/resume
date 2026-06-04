@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imre Kifor — Software Engineer (AI agents, formal methods, applied NLP)</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#555; --accent:#0b7285; --rule:#d9d9d9; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font: 14px/1.5 -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink); max-width: 800px; margin: 32px auto; padding: 0 28px;
+  }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 18px; }
+  h1 { font-size: 26px; margin: 0 0 2px; letter-spacing: .2px; }
+  .role { font-size: 14px; color: var(--accent); font-weight: 600; margin: 0 0 6px; }
+  .contact { font-size: 12.5px; color: var(--muted); }
+  .contact a { color: var(--muted); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .avail { font-size: 12.5px; color: var(--accent); font-style: italic; margin-top: 4px; }
+  h2 {
+    font-size: 13px; text-transform: uppercase; letter-spacing: 1px;
+    color: var(--accent); margin: 22px 0 8px; padding-bottom: 3px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 6px 0; }
+  ul { margin: 6px 0; padding-left: 18px; }
+  li { margin: 3px 0; }
+  .job { display: flex; justify-content: space-between; align-items: baseline; margin-top: 10px; }
+  .job .what { font-weight: 700; }
+  .job .when { color: var(--muted); font-size: 12.5px; white-space: nowrap; padding-left: 12px; }
+  .metrics { background: #f5f8f9; border: 1px solid var(--rule); border-radius: 6px; padding: 10px 14px; margin: 8px 0; }
+  .metrics strong { color: var(--accent); }
+  .skills b { color: var(--ink); }
+  .takeaway { border-left: 3px solid var(--accent); padding-left: 12px; color: #333; }
+  a { color: var(--accent); }
+  @media print {
+    body { margin: 0; padding: 0 14mm; max-width: none; font-size: 10.5pt; }
+    h2 { margin-top: 14px; }
+    .metrics { background: #f5f8f9 !important; }
+    a { color: var(--ink); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Imre Kifor</h1>
+  <p class="role">Software Engineer — AI agents, formal methods, applied NLP</p>
+  <p class="contact">
+    Newton, MA · 857-340-8699 ·
+    <a href="mailto:ikifor@gmail.com">ikifor@gmail.com</a> ·
+    <a href="https://github.com/quantapix">github.com/quantapix</a> ·
+    <a href="https://quantapix.com">quantapix.com</a> ·
+    <a href="https://www.youtube.com/@ImreKifor">youtube.com/@ImreKifor</a>
+  </p>
+  <p class="avail">Available for 1099 / contract engagements (remote).</p>
+</header>
+
+<h2>Summary</h2>
+<p>
+  Software engineer with a 35-year arc from compilers, high-performance servers,
+  and SQL-query synthesis to deep learning and NLP — now building
+  <b>axiomatic agents</b>: LLM-backed predicates wrapped around a Lean4
+  theorem-proving kernel so that every machine claim ships with a checkable
+  derivation instead of a narrative. Deep, current, hands-on experience
+  orchestrating large language models as a primary engineering tool: in 2026 I
+  built and operate a 20-subproject AI monorepo almost entirely through
+  agentic, spec-driven development with Claude Code. I am most useful where
+  formal rigor meets messy real-world text — legal and financial reasoning,
+  verification, retrieval, and agent orchestration.
+</p>
+
+<h2>Recent intensive work — AI-agent-driven engineering (2025–present)</h2>
+<p>
+  <b>Quantapix / <code>qagents</code> — solo architect &amp; operator.</b> A single
+  private monorepo of ~20 interlocking subprojects spanning Lean4 theorem
+  proving, LLM-agent orchestration, semantic memory/retrieval, two streaming web
+  products, VSCode extensions, AWS infrastructure-as-code, and a full
+  video-production pipeline — designed, built, and run largely through
+  <b>Claude Code (Opus 4.8)</b> as the day-to-day engineering engine.
+</p>
+<div class="metrics">
+  <b>Measured Claude usage (Anthropic dashboard, 2026):</b>
+  <ul>
+    <li><strong>671</strong> Claude Code sessions · <strong>123,900</strong> messages · <strong>189.5M</strong> tokens</li>
+    <li><strong>31-day</strong> unbroken daily streak; primary model <strong>Claude Opus 4.8</strong></li>
+    <li>Escalated through Anthropic <strong>Pro → Max 5× (Apr 24) → Max 20× (May 12, 2026)</strong> to sustain the workload as it intensified</li>
+  </ul>
+</div>
+<p><b>What I actually shipped with it:</b></p>
+<ul>
+  <li><b>Lean4 axiomatization</b> of legal frameworks (civil RICO, Title VI,
+    §§ 1981/1983/1985(3)) and financial frameworks (trend, momentum,
+    defined-risk options, sector, drawdown), with LLM-backed predicate
+    functions bridging natural-language facts to kernel-checked theorems.</li>
+  <li><b>Two products on one kernel</b> — <i>Qnarre</i>, a legal-complaint
+    verifier, and <i>Qresev</i>, a stock/portfolio evaluator — each an Astro +
+    React shell over a FastAPI server streaming kernel events live via SSE.</li>
+  <li>A <b>typed Python wrapper over the Claude Agent SDK</b> driving cron-fired
+    and library-callable agent routines; a <b>per-subproject semantic-memory</b>
+    layer (ONNX <code>bge-m3</code>, Milvus) for cross-session recall.</li>
+  <li>Supporting surfaces: TypeScript VSCode market-data extensions (DuckDB +
+    Parquet + live feeds), AWS CDK cloud base (S3/CloudFront/EC2), and an
+    explainer-video pipeline (HeyGen narration + Remotion/Blender graphics +
+    DaVinci Resolve), publishing to an open-source org and a technical YouTube
+    channel.</li>
+</ul>
+<p class="takeaway">
+  <b>Takeaway for clients:</b> I can take a vague goal to a specified, tested,
+  kernel-or-test-verified implementation at high velocity by orchestrating
+  agents — and I know where the model must <i>not</i> be trusted, which is
+  exactly what the Lean kernel enforces.
+</p>
+
+<h2>Technical skills</h2>
+<ul class="skills">
+  <li><b>AI / agents:</b> Claude Code, Claude Agent SDK, MCP, prompt/spec-driven
+    development, retrieval-augmented &amp; semantic memory, LLM evaluation,
+    applied NLP, deep learning</li>
+  <li><b>Formal methods:</b> Lean4, axiomatic modeling, predicate logic, theorem
+    proving, temporal/ordering logic</li>
+  <li><b>Languages:</b> Python, TypeScript, Rust, Lean, C/C++, Java, Go, Julia,
+    Lisp, JavaScript, SQL</li>
+  <li><b>ML stacks:</b> PyTorch, TensorFlow, transformer models, GPU/CUDA</li>
+  <li><b>Web / data:</b> React, Astro, FastAPI, PostgreSQL, DuckDB, Parquet, SSE</li>
+  <li><b>Infra / tooling:</b> AWS CDK (S3/CloudFront/EC2), Linux dev-ops, pnpm
+    workspaces, compilers, graph algorithms &amp; layout</li>
+  <li><b>Domain:</b> Massachusetts &amp; federal/constitutional law modeled from an
+    engineering/analytics perspective; equities &amp; defined-risk options</li>
+</ul>
+
+<h2>Professional experience</h2>
+<div class="job"><span class="what">Quantapix, Inc. — Founder &amp; Principal Engineer</span><span class="when">Jun 2011 – Present</span></div>
+<ul>
+  <li>Theorem-prover-based narrative analysis: transformer models, semantic
+    queries, narrative extraction, temporal logic; LLM-driven agentic predicate
+    calculus over axiomatized statutes (see <i>Recent intensive work</i> above).</li>
+  <li>Open to 1099 consulting contracts.</li>
+</ul>
+<div class="job"><span class="what">Valto Systems, Inc. — Founder / CTO</span><span class="when">Jun 1997 – Mar 2001</span></div>
+<ul>
+  <li>Sole designer/developer of an embeddable Java/EJB application server.</li>
+  <li>Sold the (one-to-two-person) company to <b>Allaire, Inc. for $25M</b>.</li>
+</ul>
+<div class="job"><span class="what">Boci Consulting, Inc. — Founder / Software Architect</span><span class="when">Feb 1992 – Jun 1997</span></div>
+<ul>
+  <li>Architect/consultant to Fidelity Investments (3 yrs), Putnam Investments,
+    New England Mutual Life Insurance, Varian Semiconductor, and Syncra Systems.</li>
+</ul>
+<div class="job"><span class="what">Oberon Software, Inc. — Software Engineer</span><span class="when">Jan 1991 – Feb 1992</span></div>
+<div class="job"><span class="what">Research Fellowship — Digital Equipment Corp. / Boston University</span><span class="when">Sep 1986 – Jan 1991</span></div>
+
+<h2>Education</h2>
+<ul>
+  <li><b>M.A., Computer Science</b> — Boston University, Boston, MA · 1991</li>
+  <li><b>University Diploma, Mathematics</b> — Babeș-Bolyai University, Cluj, Romania · 1985</li>
+</ul>
+
+<h2>Also</h2>
+<ul>
+  <li>Technical explainer series on axiomatic AI agents — <a href="https://www.youtube.com/@ImreKifor">youtube.com/@ImreKifor</a></li>
+  <li>Open-source work — <a href="https://github.com/quantapix">github.com/quantapix</a></li>
+  <li>Earlier entrepreneurial work: real-estate development (FL/NH), laser
+    metrology / CAD / CNC prototyping.</li>
+</ul>
+</body>
+</html>
