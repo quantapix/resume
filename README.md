@@ -2,7 +2,7 @@
 
 **Software Engineer — AI agents, formal methods, applied NLP**
 
-Waltham, MA · 857-340-8699 · [ikifor@gmail.com](mailto:ikifor@gmail.com) · [github.com/quantapix](https://github.com/quantapix) · [quantapix.com](https://quantapix.com) · [youtube.com/@ImreKifor](https://www.youtube.com/@ImreKifor)
+Waltham, MA · 857-340-8699 · [ikifor@gmail.com](mailto:ikifor@gmail.com) · [github.com/quantapix](https://github.com/quantapix) · [quantapix.com](https://quantapix.com) · [youtube.com/@Quantapix](https://www.youtube.com/@Quantapix)
 
 *Available for 1099 / contract engagements (remote).*
 
@@ -113,7 +113,7 @@ what the Lean kernel enforces.
 
 ## Also
 
-- Technical explainer series on axiomatic AI agents — [youtube.com/@ImreKifor](https://www.youtube.com/@ImreKifor)
+- Technical explainer series on axiomatic AI agents — [youtube.com/@Quantapix](https://www.youtube.com/@Quantapix)
 - Open-source work — [github.com/quantapix](https://github.com/quantapix)
 - Earlier entrepreneurial work: real-estate development (FL/NH), laser
   metrology / CAD / CNC prototyping.
