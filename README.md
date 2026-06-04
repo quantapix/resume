@@ -2,7 +2,7 @@
 
 **Software Engineer — AI agents, formal methods, applied NLP**
 
-Newton, MA · 857-340-8699 · [ikifor@gmail.com](mailto:ikifor@gmail.com) · [github.com/quantapix](https://github.com/quantapix) · [quantapix.com](https://quantapix.com) · [youtube.com/@ImreKifor](https://www.youtube.com/@ImreKifor)
+Waltham, MA · 857-340-8699 · [ikifor@gmail.com](mailto:ikifor@gmail.com) · [github.com/quantapix](https://github.com/quantapix) · [quantapix.com](https://quantapix.com) · [youtube.com/@ImreKifor](https://www.youtube.com/@ImreKifor)
 
 *Available for 1099 / contract engagements (remote).*
 
