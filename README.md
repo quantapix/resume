@@ -29,13 +29,13 @@ agent orchestration.
 of ~20 interlocking subprojects spanning Lean4 theorem proving, LLM-agent
 orchestration, semantic memory/retrieval, two streaming web products, VSCode
 extensions, AWS infrastructure-as-code, and a full video-production pipeline —
-designed, built, and run largely through **Claude Code (Opus 4.8)** as the
+designed, built, and run largely through **Claude Code (Opus)** as the
 day-to-day engineering engine.
 
 **Measured Claude usage (Anthropic dashboard, 2026):**
 
 - **671** Claude Code sessions · **123,900** messages · **189.5M** tokens
-- **31-day** unbroken daily streak; primary model **Claude Opus 4.8**
+- **31-day** unbroken daily streak; primary model **Claude Opus**
 - Escalated through Anthropic **Pro → Max 5× (Apr 24) → Max 20× (May 12, 2026)**
   to sustain the workload as it intensified
 
