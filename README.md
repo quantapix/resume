@@ -16,8 +16,8 @@ agents**: LLM-backed predicates wrapped around a Lean4 theorem-proving kernel so
 that every machine claim ships with a checkable derivation instead of a
 narrative. Deep, current, hands-on experience orchestrating large language
 models as a primary engineering tool: in 2026 I built and operate a
-20-subproject AI monorepo almost entirely through agentic, spec-driven
-development with Claude Code. I am most useful where formal rigor meets messy
+large multi-subproject AI monorepo almost entirely through agentic,
+spec-driven development with Claude Code. I am most useful where formal rigor meets messy
 real-world text — legal and financial reasoning, verification, retrieval, and
 agent orchestration.
 
@@ -26,18 +26,16 @@ agent orchestration.
 ## Recent intensive work — AI-agent-driven engineering (2025–present)
 
 **Quantapix / `qagents` — solo architect & operator.** A single private monorepo
-of ~20 interlocking subprojects spanning Lean4 theorem proving, LLM-agent
-orchestration, semantic memory/retrieval, two streaming web products, VSCode
-extensions, AWS infrastructure-as-code, and a full video-production pipeline —
-designed, built, and run largely through **Claude Code (Opus)** as the
-day-to-day engineering engine.
+of interlocking subprojects spanning Lean4 theorem proving, LLM-agent
+orchestration, semantic memory/retrieval, two streaming web products,
+local-only market-data and analytics web apps, Claude Desktop extensions, AWS
+infrastructure-as-code, and a full video-production pipeline — designed, built,
+and run largely through **Claude Code (Opus)** as the day-to-day engineering
+engine.
 
-**Measured Claude usage (Anthropic dashboard, 2026):**
-
-- **671** Claude Code sessions · **123,900** messages · **189.5M** tokens
-- **31-day** unbroken daily streak; primary model **Claude Opus**
-- Escalated through Anthropic **Pro → Max 5× (Apr 24) → Max 20× (May 12, 2026)**
-  to sustain the workload as it intensified
+**Claude usage:** escalated through Anthropic **Pro → Max 5× (Apr 24) → Max 20×
+(May 12, 2026)** to sustain the workload as it intensified; primary model
+**Claude Opus**, used daily.
 
 **What I actually shipped with it:**
 
@@ -48,10 +46,12 @@ day-to-day engineering engine.
 - **Two products on one kernel** — *Qnarre*, a legal-complaint verifier, and
   *Qresev*, a stock/portfolio evaluator — each an Astro + React shell over a
   FastAPI server streaming kernel events live via SSE.
-- A **typed Python wrapper over the Claude Agent SDK** driving cron-fired and
-  library-callable agent routines; a **per-subproject semantic-memory** layer
-  (vendored + patched, ONNX `bge-m3`, Milvus) for cross-session recall.
-- Supporting surfaces: TypeScript VSCode market-data extensions (DuckDB +
+- A **typed Python wrapper over the Claude Agent SDK**, plus a fleet of
+  cron-fired and library-callable agent routines running against the Claude
+  Code CLI; a **per-subproject semantic-memory** layer (vendored + patched;
+  ONNX `bge-m3` embeddings over a Milvus/pgvector store) for cross-session
+  recall.
+- Supporting surfaces: a TypeScript market-data inspection app (DuckDB +
   Parquet + live feeds), AWS CDK cloud base (S3/CloudFront/EC2), and an
   explainer-video pipeline (HeyGen narration + Remotion/Blender graphics +
   DaVinci Resolve), publishing to an open-source org and a technical YouTube
@@ -84,7 +84,7 @@ what the Lean kernel enforces.
 
 ## Professional experience
 
-**Quantapix, Inc. — Founder & Principal Engineer** · Jun 2011 – Present
+**Quantapix — Founder & Principal Engineer** · Jun 2011 – Present
 - Theorem-prover-based narrative analysis: transformer models, semantic queries,
   narrative extraction, temporal logic; LLM-driven agentic predicate calculus
   over axiomatized statutes (see *Recent intensive work* above).
