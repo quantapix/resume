@@ -33,10 +33,6 @@ infrastructure-as-code, and a full video-production pipeline — designed, built
 and run largely through **Claude Code (Opus)** as the day-to-day engineering
 engine.
 
-**Claude usage:** escalated through Anthropic **Pro → Max 5× (Apr 24) → Max 20×
-(May 12, 2026)** to sustain the workload as it intensified; primary model
-**Claude Opus**, used daily.
-
 **What I actually shipped with it:**
 
 - **Lean4 axiomatization** of legal frameworks (civil RICO, Title VI,
